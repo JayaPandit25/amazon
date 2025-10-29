@@ -1,7 +1,7 @@
 import { useSearchParams, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { ProductDetails } from "./";
-import { callAPI } from "../utils/CallApi";
+import { callAPI } from "../utils/callApi";
 import { GB_CURRENCY } from "../utils/constants";
 
 const SearchResults = () => {

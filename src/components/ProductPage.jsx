@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { ProductDetails } from "./";
 import { GB_CURRENCY } from "../utils/constants";
-import { callAPI } from "../utils/CallApi";
+import { callAPI } from "../utils/callApi";
 import { addToCart } from "../redux/cartSlice";
 
 const ProductPage = () => {

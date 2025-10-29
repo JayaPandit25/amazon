@@ -40,7 +40,7 @@ const NavBar = () => {
           </div>
           <Link to={"/checkout"}>
             <div className="flex pr-3 pl-3">
-              <ShoppingCartIcon className="h-[48px]" />
+              <ShoppingCartIcon className="h-12" />
               <div className="relative">
                 <div className="absolute right-[9px] font-bold m-2 text-orange-400">
                   {cart}
